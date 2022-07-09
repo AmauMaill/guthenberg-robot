@@ -6,7 +6,7 @@ This small script comes handy to download books from [Project Guthenberg](https:
 
 * Clone the repository into a new local directory,
 * (Optional) Create a virtual environment in the same directory and activate it,
-* Install the packages in `requirements.txt`.
+* Install the packages from `requirements.txt`.
 
 ## Usage
 
@@ -16,7 +16,7 @@ There are three arguments:
 * `-l` or `--language` for the output language you want,
 * `-m` or `--max` for the maximum number of documents you want.
 
-The script will create an output folder `data/language/` in the root directory and store the output in `.zip` files.
+The script will create an output folder `./data/language/` in the root directory and store the output in multiple `.zip` files.
 
 More [info](https://www.gutenberg.org/policy/robot_access.html) on the harvester.
 
