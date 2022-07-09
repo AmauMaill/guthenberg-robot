@@ -1,1 +1,5 @@
-requests
+import requests
+import sys
+import getopt
+from bs4 import BeautifulSoup
+import os
